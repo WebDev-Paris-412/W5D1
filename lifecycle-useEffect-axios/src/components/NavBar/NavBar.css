@@ -1,0 +1,21 @@
+.NavBar {
+	display: flex;
+	align-items: center;
+	padding: 0 2rem;
+	height: var(--banner-size);
+
+	& ul {
+		display: flex;
+		gap: 1rem;
+		list-style: none;
+	}
+	background-color: greenyellow;
+	color: rgb(4, 4, 69);
+	& a:hover {
+		color: brown;
+	}
+
+	& a.active {
+		text-shadow: 2px 2px 2px red, 4px 4px 4px blue, 6px 6px 6px purple;
+	}
+}

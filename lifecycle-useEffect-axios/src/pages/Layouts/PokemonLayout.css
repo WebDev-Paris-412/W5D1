@@ -1,0 +1,4 @@
+.PokemonLayout {
+	display: grid;
+	grid-template-columns: 0.33fr 1fr;
+}

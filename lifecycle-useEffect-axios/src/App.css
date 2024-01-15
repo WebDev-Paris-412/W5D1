@@ -1,0 +1,25 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+:root {
+	--banner-size: 4.5rem;
+}
+
+html {
+	background-color: rgb(56, 56, 56);
+}
+main {
+	/* max-width: 800px; */
+	margin: 0 auto;
+	color: white;
+	min-height: calc(100vh - calc(var(--banner-size) * 2));
+}
+
+a {
+	color: inherit;
+	font-weight: 500;
+	text-decoration: none;
+}
